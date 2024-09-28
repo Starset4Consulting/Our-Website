@@ -7,18 +7,30 @@
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20230327195509" />
-	<link rel="stylesheet" href="css/style.min.css?_v=20230327195509">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100..700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
 	<link rel="icon" type="image/png" href="logo.png">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-
+<style>
+	body, html {
+	  margin: 0;
+	  padding: 0;
+	  height: 100%;
+	}
+	.header {
+	  background-color: #000;
+	  color: #fff;
+	}
+  </style>
+  
 <body>
 	<div class="wrapper wrapper_contacts">
 		<header class="header">
 			<div class="header__container">
 				<div class="header__wrapper">
-					<a class="header__logo" href="index.html"><picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="kron logo"></picture></a>
+					<a class="header__logo" href="index.html"><picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="Starset logo" width="200" height="100"></picture></a>
 					<nav class="header__menu menu">
 						<ul class="menu__items">
 							<!-- <li class="menu__item"><a href="index.html">about us</a></li> -->
@@ -44,7 +56,7 @@
 
 					<div class="contacts__text">
 						Email: <a href="mailto:starsetconsulting@gmail.com" target="_blank">starsetconsulting@gmail.com</a><br>
-						СЕО: Sheshank Sonji<br>
+						СЕО: Kenneth Jason<br>
 						India, Bidar, Guru Nanak Dev Engineering College, Bidar Karnataka - 585401
 					</div>
 				</div>
@@ -68,11 +80,11 @@
 		</footer>
 	</div>
 
-	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js?_v=20230327195509"></script>
-	<script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js?_v=20230327195509"></script>
-	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12?_v=20230327195509"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js?_v=20230327195509"defer></script>
+	<script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js?_v=20230327195509"defer></script>
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12?_v=20230327195509"defer></script>
 
-	<script src="js/app.min.js?_v=20230327195509"></script>
+	<script src="js/app.js" defer></script>
 </body>
 
 </html>
